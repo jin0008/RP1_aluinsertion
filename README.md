@@ -10,4 +10,4 @@ This RP1 Alu insertion causes autosomal recessive macular dystrophy with retinit
 
 This Alu insertion in RP1 gene seems to be frequently observed in East Asian (Korean, Japanese, ...), probably founder mutation.
 
-![alt text](http:) 
+![alt text](https://github.com/jin0008/RP1_aluinsertion/blob/RP1.jpg?raw=true) 
