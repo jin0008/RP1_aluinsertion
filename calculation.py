@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 import os
 
-os.system(find *.fastq.gz -type f | parallel -j+1 zgrep -c -e ACCGCGCCCGGCCGTGTTTTCTT -e AAGAAAACACGGCCGGGCGCGGT | \
-awk '{sum += $1} END {print sum}' > mutantcount)
-os.system(find *.fastq.gz -type f | parallel -j+1 zgrep -c -e GTTATCAGTATATGTGTTTTCTTT -e AAGAAAACACATATACTGATAAC | \
-awk '{sum += $1} END {print sum}' > wildtypecount)
+os.system("find *.fastq.gz -type f | parallel -j+1 zgrep -c -e ACCGCGCCCGGCCGTGTTTTCTT -e AAGAAAACACGGCCGGGCGCGGT | \
+awk '{sum += $1} END {print sum}' > mutantcount")
+os.system("find *.fastq.gz -type f | parallel -j+1 zgrep -c -e GTTATCAGTATATGTGTTTTCTTT -e AAGAAAACACATATACTGATAAC | \
+awk '{sum += $1} END {print sum}' > wildtypecount")
 
 f1=open("mutantcount", "r")
 f2=open("wildtypecount", "r")
