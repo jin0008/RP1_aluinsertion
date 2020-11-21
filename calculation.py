@@ -18,4 +18,4 @@ if z < 0.1 :
 elif z >=0.3 :
 	print('AluY inserion in RP1 exon4 was detected!!')
 else :
-	print('AluY insertion in RP1 exon 4was suspected!! please confirm the AluY in RP1 exon4 by integrative genomic viewer')
+	print('AluY insertion in RP1 exon 4 was suspected!! please confirm the AluY in RP1 exon4 by integrative genomic viewer')
