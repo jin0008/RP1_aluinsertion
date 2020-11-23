@@ -10,10 +10,10 @@ This RP1 Alu insertion causes autosomal recessive macular dystrophy with retinit
 
 This Alu insertion in RP1 gene seems to be frequently observed in East Asian (Korean, Japanese, ...), probably founder mutation.
 
-VAF < 0.1 : No AluY insertion was found in exon 4 of RP1 at 8:55540494 position (hg19)
+# VAF < 0.1 : No AluY insertion was found in exon 4 of RP1 at 8:55540494 position (hg19)
 
-0.1 <= VAF < 0.3 : AluY insertion was suspected in exon 4 of RP1 at 8:55540494 position (hg19). Please recheck by visualizing AluY sequence at 8:55540494 position (hg19).
+# 0.1 <= VAF < 0.3 : AluY insertion was suspected in exon 4 of RP1 at 8:55540494 position (hg19). Please recheck by visualizing AluY sequence at 8:55540494 position (hg19).
 
-VAF >= 0.3: AluY insertion was detected in exon 4 of RP1 at 8:55540494 position (hg19).
+# VAF >= 0.3 : AluY insertion was detected in exon 4 of RP1 at 8:55540494 position (hg19).
 
 ![alt text](https://github.com/jin0008/RP1_aluinsertion/blob/master/RP1.jpg?raw=true) 
