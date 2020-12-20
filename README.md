@@ -17,3 +17,9 @@ This Alu insertion in RP1 gene seems to be frequently observed in East Asian (Ko
 #### VAF >= 0.3 : AluY insertion was detected in exon 4 of RP1 at 8:55540494 position (hg19).
 
 ![alt text](https://github.com/jin0008/RP1_aluinsertion/blob/master/RP1.jpg?raw=true) 
+
+
+#### Or you can directly check this common Alu insertion in Integative Genomics Viewer (Broad Institute)
+hg19 position: chr8:55540494
+hg38 position: chr8:54627934
+Please turn on "show sof-clipped bases" in the Preference-Alignments of Integrative Genomics Viewer.
