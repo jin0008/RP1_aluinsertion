@@ -27,3 +27,4 @@ Please turn on "show sof-clipped bases" in the Preference-Alignments of Integrat
 ![alt text](https://github.com/jin0008/RP1_aluinsertion/blob/master/IGV.jpg?raw=true) 
 
 ![alt text](https://github.com/jin0008/RP1_aluinsertion/blob/master/AluinsertionIGV.jpg?raw=true) 
+
