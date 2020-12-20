@@ -23,3 +23,7 @@ This Alu insertion in RP1 gene seems to be frequently observed in East Asian (Ko
 hg19 position: chr8:55540494
 hg38 position: chr8:54627934
 Please turn on "show sof-clipped bases" in the Preference-Alignments of Integrative Genomics Viewer.
+
+![alt text](https://github.com/jin0008/RP1_aluinsertion/blob/master/IGV.jpg?raw=true) 
+
+![alt text](https://github.com/jin0008/RP1_aluinsertion/blob/master/AluinsertionIGV.jpg?raw=true) 
