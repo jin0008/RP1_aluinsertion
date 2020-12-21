@@ -11,11 +11,11 @@ This RP1 Alu insertion with other truncated variant has been known to cause auto
 This Alu insertion in RP1 gene seems to be frequently observed in East Asian (Korean, Japanese, ...), probably founder mutation.
 
 
-####Prerequisites (Ubuntu) 
-GNU parallels and python is required.
+##### Prerequisites (Ubuntu) 
+##### GNU parallels and python is required.
 
-sudo apt install moreutils
-sudo apt install parallel
+### sudo apt install moreutils
+### sudo apt install parallel
 
 
 #### VAF < 0.1 : No AluY insertion was found in exon 4 of RP1 at 8:55540494 position (hg19)
