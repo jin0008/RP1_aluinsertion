@@ -14,15 +14,15 @@ This Alu insertion in RP1 gene seems to be frequently observed in East Asian (Ko
 ## Prerequisites (Ubuntu) 
 ## GNU parallels and python is required.
 
-#### sudo apt install moreutils
-#### sudo apt install parallel
-#### sudo apt-get install agrep
+#### '''sudo apt install moreutils'''
+#### '''sudo apt install parallel'''
+#### '''sudo apt-get install agrep'''
 
 ## Install
-git clone https://github.com/jin0008/RP1_aluinsertion.git
+'''git clone https://github.com/jin0008/RP1_aluinsertion.git'''
 
 ## Set your PATH permanently
-export PATH="$PATH:/where/to/RP1_aluinsertion"
+'''export PATH="$PATH:/where/to/RP1_aluinsertion"'''
 
 ## To run
 
@@ -30,7 +30,7 @@ Run this bash script in the directory with fastq.gz files.
 
 This code runs with multiple samples.
 
-bash RP1alu.sh
+'''bash RP1alu.sh'''
 
 ### Interpretation of results (See. sample.RP1_Alu.txt files)
 
@@ -64,7 +64,7 @@ Run this R code in the directory with fastq.gz files.
 
 This code runs with multiple samples.
 
-agrep {number of thread}
+'''agrep {number of thread}'''
 
 if 24 threads are available
-e.g) agrep 24 
+'''agrep 24'''
