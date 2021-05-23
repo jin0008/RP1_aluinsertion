@@ -22,10 +22,14 @@ sudo apt-get install agrep
 ```
 
 ## Install
-'''git clone https://github.com/jin0008/RP1_aluinsertion.git'''
+```
+git clone https://github.com/jin0008/RP1_aluinsertion.git
+```
 
 ## Set your PATH permanently
-'''export PATH="$PATH:/where/to/RP1_aluinsertion"'''
+```
+export PATH="$PATH:/where/to/RP1_aluinsertion"
+```
 
 ## To run
 
