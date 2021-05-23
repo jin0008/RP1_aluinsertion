@@ -38,3 +38,15 @@ Please turn on "show sof-clipped bases" in the Preference-Alignments of Integrat
 ![alt text](https://github.com/jin0008/RP1_aluinsertion/blob/master/IGV.jpg?raw=true) 
 
 ![alt text](https://github.com/jin0008/RP1_aluinsertion/blob/master/AluinsertionIGV.jpg?raw=true)
+
+#### To allow one substitution within 13 bp upstream to the RP1-Alu
+#### Agrep R code is used to detect such rare instance. However, this above bash script is more faster than agrep code.
+
+To run this R code, move all 4 files (agrep.R, alugrep, alugrepresults.R, fastqsplit.R) to the same directory with fastq files.
+
+This code runs with multiple samples.
+
+./agrep {number of thread}
+
+if 24 threads are available
+e.g) ./agrep 24 
