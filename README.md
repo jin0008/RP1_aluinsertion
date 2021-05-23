@@ -49,7 +49,7 @@ Please turn on "show sof-clipped bases" in the Preference-Alignments of Integrat
 ![alt text](https://github.com/jin0008/RP1_aluinsertion/blob/master/AluinsertionIGV.jpg?raw=true)
 
 #### To allow one substitution within 13 bp upstream to the RP1-Alu
-#### Agrep R code is used to detect such rare instance. However, this above bash script is more faster than agrep code.
+#### Agrep R code is used to detect such rare instance. However, above bash script is much faster than R agrep code.
 
 Run this R code in the directory with fastq.gz files.
 
