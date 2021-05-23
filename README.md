@@ -37,7 +37,9 @@ Run this bash script in the directory with fastq.gz files.
 
 This code runs with multiple samples.
 
-'''bash RP1alu.sh'''
+```
+bash RP1alu.sh
+```
 
 ### Interpretation of results (See. sample.RP1_Alu.txt files)
 
@@ -71,7 +73,11 @@ Run this R code in the directory with fastq.gz files.
 
 This code runs with multiple samples.
 
-'''agrep {number of thread}'''
+```
+agrep {number of thread}
+```
 
 if 24 threads are available
-'''agrep 24'''
+```
+agrep 24
+```
