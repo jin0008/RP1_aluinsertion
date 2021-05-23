@@ -14,7 +14,9 @@ This Alu insertion in RP1 gene seems to be frequently observed in East Asian (Ko
 ## Prerequisites (Ubuntu) 
 ## GNU parallels and python is required.
 
-#### '''sudo apt install moreutils'''
+#### '''
+sudo apt install moreutils
+'''
 #### '''sudo apt install parallel'''
 #### '''sudo apt-get install agrep'''
 
