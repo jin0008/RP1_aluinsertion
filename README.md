@@ -17,9 +17,9 @@ This Alu insertion in RP1 gene seems to be frequently observed in East Asian (Ko
 #### 
 ```
 sudo apt install moreutils
+sudo apt install parallel
+sudo apt-get install agrep
 ```
-#### '''sudo apt install parallel'''
-#### '''sudo apt-get install agrep'''
 
 ## Install
 '''git clone https://github.com/jin0008/RP1_aluinsertion.git'''
