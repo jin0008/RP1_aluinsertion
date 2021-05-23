@@ -17,7 +17,16 @@ This Alu insertion in RP1 gene seems to be frequently observed in East Asian (Ko
 #### sudo apt install moreutils
 #### sudo apt install parallel
 
-### Interpretation of results
+
+## to run
+
+Run this bash script in the directory with fastq.gz files.
+
+This code runs with multiple samples.
+
+bash RP1alu.sh
+
+### Interpretation of results (See. sample.RP1_Alu.txt files)
 
 #### VAF < 0.1 : No AluY insertion was found in exon 4 of RP1 at 8:55540494 position (hg19)
 
@@ -42,7 +51,7 @@ Please turn on "show sof-clipped bases" in the Preference-Alignments of Integrat
 #### To allow one substitution within 13 bp upstream to the RP1-Alu
 #### Agrep R code is used to detect such rare instance. However, this above bash script is more faster than agrep code.
 
-To run this R code, move all 4 files (agrep.R, alugrep, alugrepresults.R, fastqsplit.R) to the same directory with fastq.gz files.
+Run this R code in the directory with fastq.gz files.
 
 This code runs with multiple samples.
 
