@@ -13,6 +13,7 @@ This Alu insertion in RP1 gene seems to be frequently observed in East Asian (Ko
 
 ## Prerequisites (Ubuntu) 
 ## GNU parallels and python is required.
+## The name of fastq.gz files should be ${Sample}_R1.fast.gz and ${Sample}_R1.fastq.gz
 
 #### 
 ```
