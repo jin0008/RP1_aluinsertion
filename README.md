@@ -75,10 +75,10 @@ Run this R code in the directory with fastq.gz files.
 This code runs with multiple samples.
 
 ```
-agrep {number of thread}
+alugrep {number of thread}
 ```
 
 if 24 threads are available
 ```
-agrep 24
+alugrep 24
 ```
