@@ -82,3 +82,9 @@ if 24 threads are available
 ```
 alugrep 24
 ```
+
+In referring to work done using RP1 alu grep program, please cite:
+
+Won D, Hwang JY, Shim Y, Byeon SH, Lee J, Lee CS, Kim M, Lim HT, Choi JR, Lee ST, Han J.
+In Silico identification of a common mobile element insertion in exon 4 of RP1. 
+Sci Rept. 2021 June 28;11(1):13381. 
