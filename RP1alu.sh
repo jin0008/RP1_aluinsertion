@@ -1,3 +1,4 @@
+#!/bin/bash
 
 echo ""
 echo "RP1-Alu grep search start"
