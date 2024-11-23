@@ -20,6 +20,7 @@ This Alu insertion in RP1 gene seems to be frequently observed in East Asian (Ko
 sudo apt install moreutils
 sudo apt install parallel
 sudo apt-get install agrep
+pip install matplotlib jinja2
 ```
 
 ## Install
