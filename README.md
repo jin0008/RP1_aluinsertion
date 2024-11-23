@@ -42,7 +42,7 @@ This code runs with multiple samples.
 python RP1_alu.py
 ```
 
-### Interpretation of results (See. IR_AI_029.RP1_Alu_analysis.html files)
+### Interpretation of results (See. ${Sample}.RP1_Alu_analysis.html files)
 
 #### VAF < 0.1 : No AluY insertion was found in exon 4 of RP1 at chr8:54627934 position (hg38)
 
