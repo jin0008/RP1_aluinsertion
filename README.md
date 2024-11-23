@@ -39,16 +39,16 @@ Run this bash script in the directory with fastq.gz files.
 This code runs with multiple samples.
 
 ```
-bash RP1alu.sh
+python RP1_alu.py
 ```
 
-### Interpretation of results (See. sample.RP1_Alu.txt files)
+### Interpretation of results (See. IR_AI_029.RP1_Alu_analysis.html files)
 
-#### VAF < 0.1 : No AluY insertion was found in exon 4 of RP1 at 8:55540494 position (hg19)
+#### VAF < 0.1 : No AluY insertion was found in exon 4 of RP1 at chr8:54627934 position (hg38)
 
-#### 0.1 <= VAF < 0.3 : AluY insertion was suspected in exon 4 of RP1 at 8:55540494 position (hg19). Please recheck by visualizing AluY sequence at 8:55540494 position (hg19).
+#### 0.1 <= VAF < 0.3 : AluY insertion was suspected in exon 4 of RP1 at chr8:54627934 position (hg38). Please recheck by visualizing AluY sequence at chr8:54627934 position (hg19).
 
-#### VAF >= 0.3 : AluY insertion was detected in exon 4 of RP1 at 8:55540494 position (hg19).
+#### VAF >= 0.3 : AluY insertion was detected in exon 4 of RP1 at chr8:54627934 position (hg38).
 
 ![alt text](https://github.com/jin0008/RP1_aluinsertion/blob/master/RP1.jpg?raw=true) 
 
@@ -64,24 +64,7 @@ Please turn on "show sof-clipped bases" in the Preference-Alignments of Integrat
 
 ![alt text](https://github.com/jin0008/RP1_aluinsertion/blob/master/AluinsertionIGV.jpg?raw=true)
 
-## R code to allow one substitution within 13 bp upstream to the RP1-Alu
-#### To allow one substitution within 13 bp upstream to the RP1-Alu, agrep R code is used to detect such rare instance. 
-#### This R code has more flexible to find Alu insertion in patients who has rare variants within insertion point.
-#### However, above bash script is much faster than R agrep code.
-#### Running time will be reduced if you ungzip fastq.gz files before running.
 
-Run this R code in the directory with fastq.gz files.
-
-This code runs with multiple samples.
-
-```
-alugrep {number of thread}
-```
-
-if 24 threads are available
-```
-alugrep 24
-```
 
 In referring to work done using RP1 alu grep program, please cite:
 
