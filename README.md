@@ -46,7 +46,7 @@ python RP1_alu.py
 
 #### VAF < 0.1 : No AluY insertion was found in exon 4 of RP1 at chr8:54627934 position (hg38)
 
-#### 0.1 <= VAF < 0.3 : AluY insertion was suspected in exon 4 of RP1 at chr8:54627934 position (hg38). Please recheck by visualizing AluY sequence at chr8:54627934 position (hg19).
+#### 0.1 <= VAF < 0.3 : AluY insertion was suspected in exon 4 of RP1 at chr8:54627934 position (hg38). Please recheck by visualizing AluY sequence at chr8:54627934 position (hg38).
 
 #### VAF >= 0.3 : AluY insertion was detected in exon 4 of RP1 at chr8:54627934 position (hg38).
 
