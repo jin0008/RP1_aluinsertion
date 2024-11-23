@@ -41,6 +41,8 @@ This code runs with multiple samples.
 ```
 python RP1_alu.py
 ```
+### Run time
+average run time: targeted panel < 1 min, exome: 1 min 30 sec, genome: 30 min per sample.
 
 ### Interpretation of results (See. ${Sample}.RP1_Alu_analysis.html files)
 
