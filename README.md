@@ -1,4 +1,6 @@
-# RP1_aluinsertion
+<h1 align="center"><img width="300px" src="rp1_grep_logo.svg"/></h1>
+
+<h1 align="center">RP1_aluinsertion</h1>
 
 The linux program grep to search FASTQ files for the 5' junction of between the reference sequence of exon 4 and the beginning of the Alu insertion in RP1 gene.
 
